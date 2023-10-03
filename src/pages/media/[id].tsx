@@ -11,8 +11,6 @@ const Media = () => {
   const [data, setData] = useState<Movie | undefined>(undefined);
   const router = useRouter();
 
-  console.log(data);
-
   const { id, country } = router.query;
 
   const {

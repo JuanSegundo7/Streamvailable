@@ -16,14 +16,6 @@
   }
 }
 
-
-#section {
-  display: flex;
-  flex: 1;
-  width: 100%;
-}
-
-
 body {
   color: rgb(var(--foreground-rgb));
   background: #181818
