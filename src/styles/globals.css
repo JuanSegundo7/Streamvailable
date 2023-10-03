@@ -16,12 +16,25 @@
   }
 }
 
+
+#section {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #181818
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #4452FE;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar{
+  width: 2px;
 }
