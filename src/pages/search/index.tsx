@@ -76,7 +76,7 @@ const Search = () => {
           moviesOrSeries.map((movie: Movie) => {
             return (
               <Card
-                id={movie.imdbID}
+                id={movie.imdbId}
                 image={movie.Poster}
                 title={movie.Title}
                 key={movie.Title}

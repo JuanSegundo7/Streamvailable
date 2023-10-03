@@ -210,21 +210,25 @@ const Media = () => {
                             key={season.title}
                             className="flex flex-col h-full sm:min-h-[520px] sm:h-full"
                           >
-                            <p className="text-white text-md font-medium w-full text-left">
-                              {season.title}
-                            </p>
-                            <div>
-                              {season.episodes.map((episode: Episode) => {
-                                return (
-                                  <p
-                                    className="text-base text-gray-300 text-left"
-                                    key={episode.title}
-                                  >
-                                    {episode.title}
-                                  </p>
-                                );
-                              })}
-                            </div>
+                            {season.episodes.length > 0 && (
+                              <>
+                                <p className="text-white text-md font-medium w-full text-left">
+                                  {season.title}
+                                </p>
+                                <div>
+                                  {season.episodes.map((episode: Episode) => {
+                                    return (
+                                      <p
+                                        className="text-base text-gray-300 text-left"
+                                        key={episode.title}
+                                      >
+                                        {episode.title}
+                                      </p>
+                                    );
+                                  })}
+                                </div>
+                              </>
+                            )}
                           </div>
                         );
                       })}

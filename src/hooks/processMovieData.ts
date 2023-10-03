@@ -6,6 +6,7 @@ const processMovies = async (movies: Movie[], country: string) => {
       const movieData = await getMovies(movie.imdbId);
       return {
         ...movieData,
+        imdbId: movie.imdbId,
         seasons: movie.seasons,
         genre: movie.genres,
         stream_platforms: movie.streamingInfo[country as keyof typeof movie.streamingInfo] || []
