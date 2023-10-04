@@ -12,7 +12,6 @@ const getMovie = async(imdbId: string, country: string) => {
             imdb_id: imdbId
         },
         headers: {
-            // 'X-RapidAPI-Key': 'be155a6cf4msh43004b495c81f3dp1470bfjsn9b62474a6513',
             'X-RapidAPI-Key': rapidKey,
             'X-RapidAPI-Host': 'streaming-availability.p.rapidapi.com'
         }
