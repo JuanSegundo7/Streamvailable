@@ -58,7 +58,7 @@ const Media = () => {
             height={150}
             width={150}
             alt="poster"
-            className="w-full h-full max-h-[500px] sm:w-[300px] sm:h-[500px] lg:w-[600px] lg:h-[600px] object-cover drop-shadow-lg"
+            className="w-full h-full max-h-[500px] sm:w-[300px] sm:h-[500px] lg:w-[500px] lg:h-full object-cover drop-shadow-lg"
           />
           <div className="p-6 lg:px-6 lg:py-0 w-full h-full">
             <div className="w-full">
