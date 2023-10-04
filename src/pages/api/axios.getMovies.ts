@@ -5,7 +5,7 @@ const getMovies = async(imdbId: string) => {
 
     const options = {
     method: 'GET',
-    url: `http://www.omdbapi.com/?i=${imdbId}&apikey=${omdbKey}`,
+    url: `https://www.omdbapi.com/?i=${imdbId}&apikey=${omdbKey}`,
     };
 
     try {

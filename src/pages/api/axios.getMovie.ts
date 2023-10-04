@@ -19,7 +19,7 @@ const getMovie = async(imdbId: string, country: string) => {
 
     const optionsOMDb = {
         method: 'GET',
-        url: `http://www.omdbapi.com/?i=${imdbId}&plot=full&apikey=${omdbKey}`,
+        url: `https://www.omdbapi.com/?i=${imdbId}&plot=full&apikey=${omdbKey}`,
     };
 
     try {
