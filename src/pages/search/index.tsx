@@ -66,7 +66,7 @@ const Search = () => {
       </div>
       <article className="w-full h-full min-h-[400px] justify-center items-center gap-6 flex flex-wrap mt-10">
         {searchLoading ? (
-          Array.from({ length: 8 }).map((_, index) => (
+          Array.from({ length: 12 }).map((_, index) => (
             <SkeletonLoader key={index} />
           ))
         ) : data.search.length === 0 ? (
