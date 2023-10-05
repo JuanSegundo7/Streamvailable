@@ -4,6 +4,7 @@ import { Country } from "@/@types/countries";
 import Search from "@/components/Search";
 import { useRouter } from "next/router";
 import { Values } from "@/@types/values";
+import SkeletonLoader from "@/components/SkeletonLoader";
 
 export default function Home() {
   const [select, setSelect] = useState<Country | null>(null);
