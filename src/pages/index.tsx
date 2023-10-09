@@ -25,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <section className="flex min-h-screen w-full flex-col items-center justify-between py-6 bg-gradient-to-b from-black to-transparent">
+    <section className="flex min-h-screen w-full flex-col items-center justify-between py-6 bg-gradient-to-b from-black to-transparent text-white">
       <article className="min-h-[70vh] w-full p-12">
         <div className="gap-6 flex flex-col items-center">
           <h1 className="text-center text-bold leading-[30px] text-4xl md:leading-[52px] md:text-5xl lg:leading-[88px] lg:text-[80px] lg:font-medium">

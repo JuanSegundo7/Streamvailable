@@ -43,7 +43,7 @@ const Media = () => {
 
   return (
     <section
-      className={`flex min-h-screen w-full flex-col items-center md:px-24 bg-gradient-to-b from-black to-transparent ${
+      className={`flex min-h-screen w-full flex-col items-center md:px-24 bg-gradient-to-b text-white from-black to-transparent ${
         !data ? "justify-center" : "justify-between"
       }`}
     >

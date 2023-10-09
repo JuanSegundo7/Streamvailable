@@ -47,7 +47,7 @@ const Search = () => {
   const moviesOrSeries = type === "movie" ? data.movies : data.series;
 
   return (
-    <section className="flex min-h-screen w-full flex-col items-center justify-start px-8 md:px-24 bg-gradient-to-b from-black to-transparent">
+    <section className="flex min-h-screen w-full flex-col items-center justify-start px-8 md:px-24 bg-gradient-to-b from-black to-transparent text-white">
       <div className="flex flex-col gap-4 justify-center items-center sm:flex-row sm:justify-between sm:w-full sm:gap-0">
         <div className="items-center justify-center flex gap-1">
           <h3>
